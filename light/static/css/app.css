@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.title{
+    font-size: 18px;
+    color:#000;
+    width:800px;
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+    margin:20px auto 0;
+    background: #b3b1b1;
+}
+.sizetable{
+    width:800px;
+    height:auto;
+    margin:auto;
+    border-spacing:0;
+    text-align: center;
+}
+.sizeth{
+    border:1px solid #7b7575;
+    text-align: center;
+    line-height: 30px;
+}
+.sizetd{
+    border:1px solid #7b7575;
+    line-height: 25px;
+}
+tr:nth-of-type(2n){
+    background: #d2cece;
+}
+form{
+    width:800px;
+    margin: 10px auto;
+}
